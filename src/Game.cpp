@@ -132,8 +132,7 @@ namespace game {
 
 			window.clear(sb::Color(1, 1, 1, 1));
 			window.draw(backdrop);
-			sb::Transform test;
-			window.draw(board, test);
+			window.draw(board);
 			window.display();
 		}
 	}
